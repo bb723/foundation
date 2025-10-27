@@ -9,8 +9,9 @@ setup(
     include_package_data=True,
     package_data={
         'foundation': [
-            'templates/**/*',
-            'static/**/*',
+            'templates/*.html',
+            'static/css/*.css',
+            'static/js/*.js',
         ],
     },
    install_requires=[

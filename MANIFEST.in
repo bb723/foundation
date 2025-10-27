@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include foundation/templates *.html
+recursive-include foundation/static *.css *.js *.png *.jpg *.svg *.ico
